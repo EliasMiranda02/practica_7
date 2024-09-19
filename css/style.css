@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7a7a7a;
+}
+
+.areaPrincipal{
+    background-image: url(/img/Fondo.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#encabezado{
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url(/img/LogoPollo.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100%;
+    height: 55px;
+    background: #15101b;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+#datos{
+    width: 80%;
+    background-color: white;
+    height: 100%;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PARA LOS TEXTOS */
+
+#datos h1{
+    text-align: center;
+    padding: 20px;
+}
+
+#datos p{
+    text-align: justify;
+}
+
+/* POLLO BRUJO CON SU COLOR */
+
+.pollo {
+    color: red; 
+}
+
+.brujo {
+    color: green; 
+}
+
+
+/* MISION Y VISION */
+.vision-mision-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales para que estén en horizontal */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 40px;
+    width: 85%;
+}
+
+.Mision, .Vision {
+    line-height: 1.5;
+    background-color: #f9f9f9; /* Color de fondo opcional */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PARA LA GALERIA */
+.areaPrincipal1{
+    background-image: url(/img/Fondo.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.areaPrincipal1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
